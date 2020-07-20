@@ -1,0 +1,44 @@
+/*Universal selector*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Atribute selector*/
+.container {
+    
+    background-color: blueviolet;
+    display: flex;
+    text-align: center;
+    margin: 1em;
+    height: 250px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/*ID selector*/
+.myDiv1 {
+   width: 30%;
+   height: 250px;
+   background-color: pink;
+
+}
+/*Class selector*/
+.myDiv2 {
+  width: 30%;  
+height: 250px;
+color: white;
+}
+
+.myDiv3{
+   width: 30%;
+   height: 250px;
+color: white;
+background-color: green;
+
+}
+
+.myDiv4{
+    width: 30%;  
+    height: 250px;
+    background-color: black;
+    color: white;
+}
